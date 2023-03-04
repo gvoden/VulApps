@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:rolling
 MAINTAINER Medici.Yan <Medici.Yan@Gmail.com>
 
 RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
