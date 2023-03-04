@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:rolling
 COPY src/zabbix-release_2.4-1+trusty_all.deb /tmp/zabbix-release.deb
 
 RUN set -x \
