@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:rolling
 
 RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
 RUN set -x \
