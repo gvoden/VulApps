@@ -1,4 +1,4 @@
-FROM nginx:1.13.1
+FROM nginx:1.22-perl
 MAINTAINER Medici.Yan <Medici.Yan@Gmail.com>
 
 COPY src/nginx.conf /etc/nginx/nginx.conf
