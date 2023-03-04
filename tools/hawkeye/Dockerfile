@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:rolling
 
 MAINTAINER Medici.Yan@Gmail.com
 ENV LC_ALL C.UTF-8
