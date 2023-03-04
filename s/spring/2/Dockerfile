@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk
+FROM openjdk:20-rc-jdk-slim
 MAINTAINER Medici.Yan@Gmail.com
 
 ENV JAR_URL http://vulapps.poetn.cc/s/spring/spring-data-commons_CVE-2018-1273.jar
