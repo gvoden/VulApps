@@ -1,4 +1,4 @@
-FROM tomcat:8-jre8
+FROM tomcat:8-jdk8-corretto
 MAINTAINER Medici.Yan@Gmail.com
 
 ENV WAR_URL http://vulapps.xuanbo.cc/s/struts2/struts2/s2-048-1.war
