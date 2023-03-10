@@ -1,4 +1,4 @@
-FROM tomcat:8-jre8
+FROM tomcat:8-jdk8-corretto
 MAINTAINER 0x0keeper@gmail.com
 
 ENV WAR_URL http://vulapps.xuanbo.cc/s/struts2/struts2/S2-008.war
